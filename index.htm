@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
@@ -18,10 +18,181 @@
   </head>
   <body>
 
-    <h1>Welcome!</h1>
-    
+    <div class="container-fluid" id="app" v-cloak>
+      <div class="row">
+        <div class="col-lg-4 col-12 text-center col-left">
+
+          <div class="avatar">
+            <img src="img/avatar.jpg" class="img-responsive" />
+          </div>
+
+          <div class="intro">
+            <h1>
+              Honza<br /><strong>Babarik</strong>
+            </h1>
+            <div class="divider"></div>
+            <h2>Entrepreneuring Engineer</h2>
+            <p>
+              Some description
+            </p>
+          </div>
+
+          <div class="sidebar">
+            <ul class="list-icon">
+              <li>
+                <i class="far fa-envelope"></i><a href="mailto:honzababarik@gmail.com">honzababarik@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i><a href="tel:+14159366993">+1 (415) 936 6993</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i><a>San Francisco, CA</a>
+              </li>
+            </ul>
+
+            <div class="divider"></div>
+            <div class="header">
+              <div class="bg"></div>
+              <div class="content">
+                <div class="icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <span>Techstack</span>
+              </div>
+            </div>
+            <table class="table-values">
+              <tr v-for="(value, name) in skills">
+                <td>{{name}}</td>
+                <td>
+                  <div class="slider" data-toggle="tooltip" data-placement="top" :title="value.tooltip"><div class="value" :style="getWidth(value.value)"></div></div>
+                </td>
+              </tr>
+            </table>
+
+            <div class="divider"></div>
+            <div class="header">
+              <div class="bg"></div>
+              <div class="content">
+                <div class="icon">
+                  <i class="fas fa-globe-europe"></i>
+                </div>
+                <span>Languages</span>
+              </div>
+            </div>
+            <table class="table-values">
+              <tr v-for="(value, name) in languages">
+                <td>{{name}}</td>
+                <td>
+                  <div class="slider"><div class="value" :style="getWidth(value)"></div></div>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+
+        </div>
+        <div class="col-lg-8 col-12 col-right">
+
+          <div class="tabbar">
+            <a href="#resume" class="tab" :class="{'active': tab === 'resume'}" @click="tab = 'resume'">
+              Resume
+            </a>
+            <a href="#portfolio" class="tab" :class="{'active': tab === 'portfolio'}" @click="tab = 'portfolio'">
+              Portfolio
+            </a>
+          </div>
+
+          <section v-if="tab === 'resume'">
+            <div class="header">
+              <div class="icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <span>Experience</span>
+            </div>
+
+            <div class="content">
+              <item :item="experience" v-for="experience in experiences"></item>
+            </div>
+
+            <div class="header">
+              <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <span>Education</span>
+            </div>
+            <div class="content">
+              <item :item="education" v-for="education in educations"></item>
+            </div>
+          </section>
+
+          <section v-if="tab === 'portfolio'">
+            <project v-for="project in projects" :item="project"></project>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/x-template" id="item-template">
+      <table class="item">
+        <tr>
+          <td><div class="dot"><div></div></div></td>
+          <td>
+            <span class="role" v-if="item.role">{{item.role}}</span>
+            <span class="company">{{item.company}}</span>
+          </td>
+          <td class="text-right">
+            <div class="timeline">
+              {{item.timeline}}
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><div class="line"></div></td>
+          <td colspan="2" v-if="item.description">
+            <div class="location" v-if="location">
+              <i class="fas fa-map-marker-alt"></i>
+              {{item.location}}
+            </div>
+            <div class="description">{{item.description}}</div>
+            <ul v-if="item.items">
+              <li v-for="i in item.items">{{i}}</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </script>
+    <script type="text/x-template" id="project-template">
+      <div class="project" :class="item.css">
+        <div class="header">
+          <div class="icon">
+            <img :src="item.icon" class="img-fluid">
+          </div>
+          <div class="info">
+            <div class="title">
+              {{item.name}}
+              <div :class="getStatusCss">{{item.status}}</div>
+            </div>
+            <div class="link">
+              <a :href="item.link" target="_blank">{{item.link}}</a>
+            </div>
+            <div class="techs">
+              <div class="tech" v-for="tech in item.tech">
+                {{tech}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="description">{{description}}</div>
+        </div>
+      </div>
+    </script>
+    <script src="script.js"></script>
+
   </body>
 </html>
