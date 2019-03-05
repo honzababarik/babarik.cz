@@ -19,7 +19,7 @@ Vue.component('project', {
 new Vue({
   el: '#app',
   data: {
-    tab: 'portfolio',
+    tab: 'resume',
     skills: {
       'Javascript': {
         tooltip: 'Vanilla, jQuery, VueJS, ReactJS, NodeJS',
