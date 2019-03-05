@@ -146,6 +146,22 @@ h2 {
   text-align: left;
   font-size: 0.8rem;
 }
+.icon {
+  border-radius: 50%;
+  color: #FFFFFF;
+  border: 3px solid #5e6bb2;
+  padding: 3px;
+}
+.icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #5e6bb2;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+}
 .slider {
   display: flex;
   height: 12px;
@@ -163,29 +179,13 @@ h2 {
 section {
   padding: 0 15px;
 }
-section .header {
+section > .header {
   margin-top: 15px;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
-section .header .icon {
-  border-radius: 50%;
-  color: #FFFFFF;
-  border: 3px solid #5e6bb2;
-  padding: 3px;
-}
-section .header .icon i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: #5e6bb2;
-  width: 60px;
-  height: 60px;
-  font-size: 1.5rem;
-}
-section .header span {
+section > .header span {
   padding-left: 18px;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -297,6 +297,12 @@ section .content table:last-child .line {
 .project {
   margin-bottom: 50px;
 }
+.project .header {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .project .header .title {
   display: flex;
   align-items: center;
@@ -388,6 +394,24 @@ section .content table:last-child .line {
   .project .header {
     align-items: flex-start;
   }
+  .project .header .icon {
+    width: 60px;
+    height: 60px;
+  }
+  .project .header .title {
+    display: block;
+  }
+  .project .header .status {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+  }
+  .project .header .status span {
+    display: none;
+  }
+  .project .content {
+    padding-left: 75px;
+  }
   .item .company {
     display: block;
   }
@@ -400,7 +424,7 @@ section .content table:last-child .line {
   .item .location {
     margin-top: 0;
   }
-  section .header .icon i {
+  section > .header .icon i {
     height: 30px;
     width: 30px;
     font-size: 1rem;

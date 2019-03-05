@@ -167,6 +167,23 @@ h2 {
   }
 }
 
+.icon {
+  border-radius: 50%;
+  color: @white-color;
+  border: 3px solid @theme-color;
+  padding: 3px;
+  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: @theme-color;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}
+
 .slider {
   display: flex;
   height: 12px;
@@ -184,27 +201,11 @@ h2 {
 
 section {
   padding: 0 15px;
-  .header {
+  & > .header {
     margin-top: 15px;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    .icon {
-      border-radius: 50%;
-      color: @white-color;
-      border: 3px solid @theme-color;
-      padding: 3px;
-      i {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background-color: @theme-color;
-        width: 60px;
-        height: 60px;
-        font-size: 1.5rem;
-      }
-    }
     span {
       padding-left: 18px;
       font-size: 1.3rem;
@@ -326,6 +327,10 @@ section {
 .project {
   margin-bottom: 50px;
   .header {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
     .title {
       display: flex;
       align-items: center;
@@ -424,9 +429,24 @@ section {
   .project {
     .header {
       align-items: flex-start;
+      .icon {
+        width: 60px;
+        height: 60px;
+      }
       .title {
         display: block;
       }
+      .status {
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+        span {
+          display: none;
+        }
+      }
+    }
+    .content {
+      padding-left: 75px;
     }
   }
   .item {
@@ -444,7 +464,7 @@ section {
     }
   }
   section {
-    .header {
+    & > .header {
       .icon {
         i {
           height: 30px;
