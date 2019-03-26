@@ -69,7 +69,7 @@ new Vue({
     },
     languages: {
       'Czech': 100,
-      'English': 90,
+      'English': 80,
       'German': 20
     },
     experiences: [{
@@ -85,15 +85,23 @@ new Vue({
         company: '@ Concur',
         location: 'Prague, Czech republic',
         timeline: 'Jan 2014 - Mar 2016',
-        description: 'Work on varions applications with millions of users - covering:',
+        description: `I joined Concur at 2014 as one of the first two members of a new development team to help build TripIt - a web and mobile app that magically manages traveler's itinerary. 
+          In the beginning next to learning about TripIt platform and its codebase I spent time interviewing engineers to grow our new engineering team from 2 to over a dozen of engineers.
+
+          As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the
+          TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team. 
+
+          Later in 2015 I have switched roles from a full-stack platform engineer to lead Concur's remote team responsible for development of Objective-C based iOS app called ExpenseIt.
+        `,
         items: [
-          'HTML5/CSS3/JS/jQuery/LESS (and other preprocessors) frontend',
-          'PHP backend on Symfony1/2 and Laravel',
-          'Python backend for microservices in Django and SQLAlchemy',
-          'working with relational SQL (MySQL) and nonSQL (MongoDB, Couchbase) databases',
-          'designing public APIs',
-          'architecture and development of billing microservices',
-          'iOS Objective-C mobile development',
+          "architecture and development of TripIt's internal and external REST APIs",
+          'front-end web development (HTML5, CSS3/LESS, JS/jQuery)',
+          'back-end server development (PHP + Symfony framework)',
+          'microservice architecture and development (Python + Django framework, NodeJS)',
+          'MySQL and NoSQL (Couchbase) database development and maintenance',
+          'RabbitMQ user for our queue needs',
+          'iOS team lead with active development of ExpenseIt (Objective-C)',
+          'interviewing and hiring new engineers',
         ]
       }, {
         role: 'Software Developer',
