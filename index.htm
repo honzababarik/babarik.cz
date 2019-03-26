@@ -33,9 +33,13 @@
             <div class="divider"></div>
             <h2>Entrepreneuring Engineer</h2>
             <ul>
-              <li v-for="point in points"><div class="dot"><div></div></div>{{point}}</li>
-              <li><div class="dot"><div></div></div>check out my
-                <a href="#portfolio" @click="tab = 'portfolio'">portfolio</a>
+              <li v-for="point in points">
+                <div class="dot"><div></div></div>
+                {{point}}
+              </li>
+              <li>
+                <div class="dot"><div></div></div>
+                check out my&nbsp;<a href="#portfolio" @click="tab = 'portfolio'">portfolio</a>
               </li>
             </ul>
           </div>
