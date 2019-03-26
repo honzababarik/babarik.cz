@@ -100,7 +100,25 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Jul 2012 - Dec 2013',
-        description: 'After several years of experience I have moved from area of Microsoft business to stricly technical job role - Software developer for Microsoft Consulting Services. Aside from development of high-availability enterprise applications (ASP.NET, C#, BizTalk, MSSQL, WCF), I am also creating applications for Windows 8 and Windows Phone (XAML, WPF, C#, HTML, JS), cloud applications based on Windows Azure, or integration and development on Sharepoint 2010 a 2013. In terms of development we are using all available Microsoft technologies, the forementioned are areas that I would point out as my focus field, where I can deliver top experience.',
+        description: `
+          Software developer at Microsoft Consulting Services was a strictly technical role, where I was responsible for correct integration, development and deployment
+          of Microsoft technologies and products for public sector and public sector serving companies based in Czech republic.
+
+          All applications were built at enterprise level scale, which required high availability and fault tolerance. I built web applications
+          based on ASP.NET and C#, managed and query large data sets using MSSQL and T-SQL language and set up infrastructure and develop communication channels between
+          several data centers using BizTalk Servers middleware.
+
+          Aside from the client project's work I was working on showcases of new Microsoft technologies (Windows 8/Universal, Windows Phone, Microsoft Azure) in order
+          to introduce the technology and possibilities to Microsoft customers, partners and IT professionals.
+        `,
+        items: [
+          'architecture and development highly available enterprise applications for public sector (ASP.NET, C#, BizTalk, MSSQL, WCF)',
+          'management of large data sets using Microsoft SQL Servers and Transact-SQL language',
+          'deployment and enterprise Windows servers (2003 - 2012) clusters management',
+          'evangelism of Microsoft Azure by building cloud based applications and showcase products',
+          'evangelism of Windows 8 and Windows Phone for developers by creating smaller PoC business apps (XAML, WPF, C#, HTML, JS)',
+          'integration and development of Sharepoint sites (2010 and 2013) for both internal and external purposes',
+        ]
       }, {
         role: 'CEE CPE Project Consultant',
         company: '@ Microsoft',
@@ -128,7 +146,7 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Sep 2009 - Jan 2010',
-        description: 'Windows Guru was a retail-based position, where I was responsible for Microsoft and Windows 7 Brand awareness specifically during Windows 7 launch events and roadshows.', 
+        description: 'Windows Guru was a retail-based position, where I was responsible for Microsoft and Windows 7 Brand awareness during Windows 7 launch events and roadshows.', 
         items: [
           'team leadership during Windows 7 Roadshow events around Czech republic',
           'management and evangelism of Microsoft brand in retail',
