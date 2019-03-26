@@ -244,12 +244,12 @@ section .content table:last-child .line {
 }
 .item .timeline {
   display: inline-block;
-  text-align: right;
-  border-left: 1px solid #e3e3e3;
-  padding-left: 12px;
+  padding: 4px 12px;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #6a6b6b;
+  background-color: #6a6b6b;
+  color: #FFFFFF;
+  border-radius: 20px;
 }
 .item .location {
   font-size: 0.9rem;
