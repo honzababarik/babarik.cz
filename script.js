@@ -209,18 +209,11 @@ new Vue({
         statusColor: 'green',
         tech: ['React Native', 'Node JS', 'Vue JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS', 'ElastiCache', 'CloudFront'],
         description: `
-          Manage your crypto portfolio and trading signals all in one app!
-        `
-      }, {
-        icon: 'img/slang.png',
-        name: 'Slang',
-        css: 'slang',
-        link: 'https://hislang.com',
-        status: 'In Progress',
-        statusColor: 'yellow',
-        tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
-        description: `
-          Real-time translated mobile chat app that allows you to talk to anyone, anytime, anywhere.
+          Beacoin was my own idea that I got after starting trading crypto currencies. The problem with signal trading was that there were a lot of signal traders (people who tell you what to buy/sell and when) that were manipulating the numbers of how successful their trading strategies are, luring the users to buy questionable product.
+
+          Beacoin is Web and Mobile app that is used by signal traders to easily send their paid users the signal information without being able to manipulate their history. For users the important is the transparency and the ease of use - if you get a signal to buy Bitcoin, you click on the Buy button and Beacoin's integration to the biggest crypto exchanges is going to take care of the rest.
+
+          Beacoin is hosted on AWS in US and EU, and I have architected and built the web, opened REST API and mobile app for iOS and Android using React Native myself.
         `
       }, {
         icon: 'img/foodmoves.png',
@@ -230,18 +223,21 @@ new Vue({
         status: 'Production',
         statusColor: 'green',
         tech: ['React Native', 'Node JS', 'Vue JS', 'CircleCI', 'Azure', 'MySQL'],
+        TODO: true,
         description: `
           Discover and order hard-to-find food near you from food trucks, farmers' markets, indoor market and specialty food vendors all in real-time.
         `
       }, {
-        icon: 'img/default.png',
-        name: '"Nucleus"',
-        css: 'nucleus',
-        status: 'In Preparation',
-        statusColor: 'orange',
-        tech: ['Azure'],
+        icon: 'img/slang.png',
+        name: 'Slang',
+        css: 'slang',
+        link: 'https://hislang.com',
+        status: 'In Progress',
+        statusColor: 'yellow',
+        tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
+        TODO: true,
         description: `
-          Codename "Nucleus" is an AI platform designed to help doctors discover and diagnose thyroid abnormalities including Thyroid Cancer saving doctors and radiologists up to 50% of the time it usually takes.
+          Real-time translated mobile chat app that allows you to talk to anyone, anytime, anywhere.
         `
       }, {
         icon: 'img/localized.png',
@@ -251,6 +247,7 @@ new Vue({
         status: 'Production',
         statusColor: 'green',
         tech: ['Python', 'Django', 'Vue JS', 'MySQL', 'S3', 'CodeDeploy', 'EC2', 'RDS'],
+        TODO: true,
         description: `
           Experts to guide you, employers to hire you.
           Connecting experts and employers with tomorrow's talent.
@@ -263,11 +260,24 @@ new Vue({
         status: 'In Progress',
         statusColor: 'yellow',
         tech: ['React Native'],
+        TODO: true,
         description: `
           Simple, scalable, two-way business texting.
           Easily send, receive, and manage text message conversations online.
         `
-      },
+      }, {
+        icon: 'img/default.png',
+        name: '"Ivie"',
+        css: 'nucleus',
+        status: 'In Preparation',
+        statusColor: 'orange',
+        tech: ['Azure'],
+        description: `
+          Codename "Ivie" is an AI-powered platform designed to help doctors discover and diagnose thyroid abnormalities including Thyroid Cancer saving doctors and radiologists up to 50% of the time it usually takes.
+
+          Ivie is currently being established on the business side. My role is the CTO of the company owning Ivie, the product description is currently being prepared.
+        `
+      }
       // {
       //   icon: 'img/uplift.png',
       //   name: 'Uplift',
