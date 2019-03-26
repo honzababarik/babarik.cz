@@ -82,7 +82,7 @@ new Vue({
     },
     experiences: [{
         role: 'Principal Software Engineer',
-        company: '@ TripIt',
+        company: '@ SAP (TripIt)',
         location: 'San Francisco, California',
         timeline: 'Apr 2016 - Now',
         description: `After relocating to San Francisco in 2016 to work closer with our core TripIt platform development team, I joined the delivery team responsible for TripIt paid features. Together, we lead the reintroduction of our second paid business product - TripIt for Teams.
