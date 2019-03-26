@@ -77,26 +77,25 @@ new Vue({
         company: '@ TripIt',
         location: 'San Francisco, California',
         timeline: 'Apr 2016 - Now',
-        description: `I have asked in 2016 to be relocated to San Francisco to work closer with our core TripIt development team to leverage my years of web development experience.
-          I have joined the delivery team responsible for delivering new features to TripIt paid users, starting with redesigning and reintroducing our second paid business product TripIt for Teams.
+        description: `I relocated to San Francisco in 2016 to work closer with our core TripIt platform development team and joined the delivery team responsible for TripIt paid features. I started with the reintroduction of our second paid business product - TripIt for Teams.
 
           One of the biggest ongoing tasks was to keep moving TripIt from monolith towards SOA using Python/NodeJS microservices, which helped me to learn a lot of about AWS technologies such ECS, VPC, Aurora, EC2, S3, Elasticache, CloudFormation, Route53 and many more, effectively making me quite confident in AWS DevOps.
     
           Proof of concept for SOA was a feature called GoNow, which I designed, architected, led the team to develop and rolled out. GoNow became the most covered TripIt feature online in the history of TripIt.
     
-          In 2018 all of SAP engineering was focused on GDPR compliance and our data security, which helped me to understand more advanced security concepts for enterprise.
-
-          As TripIt is getting oficially introduced to markets outside of US, our team took ownership of how do we localize and internationalize platform that was originally built without any language support whatsoever.
+          In 2018 TripIt engineering focused on GDPR compliance and our data security, which helped me to understand more advanced security concepts for enterprise systems.
+  
+          As TripIt is getting oficially introduced to markets outside of US, our team took ownership of how do we localize our platform that was originally built without any internalization support.
         `,
         items: [
           'redesigned TripIt for Teams business product',
           'architected GoNow microservice based infrastructure and developed the business logic',
           'introduced unified user analytics system across all TripIt apps in order to better understand our users and their behavior',
-          'architected localization and internalization approach for platform and microservices of our static data',
-          'leveraged majority of AWS solutions to move TripIt from on-premise to solely cloud based application',
+          'architected localization and internalization approach for platform and microservices',
+          'leveraged majority of AWS features to move TripIt from on-premise to solely cloud based application',
           'introduced GDPR compliance changes, security measures and monitoring',
-          'developed airport navigation integration for mobile using a third party solution',
-          'worked mainly on back-end using Python, PHP and NodeJS',
+          'developed airport navigation 3rd party integration for mobile users',
+          'worked mainly on back-end services based on Python and NodeJS',
           'mentoring TripIt engineers in development approaches and best practices'
         ]
       }, {
