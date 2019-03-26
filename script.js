@@ -77,7 +77,9 @@ new Vue({
         company: '@ TripIt',
         location: 'San Francisco, California',
         timeline: 'Apr 2016 - Now',
-        description: ' ',
+        description: '',
+        items: [
+        ]
       }, {
         role: 'Principal Software Engineer',
         company: '@ Concur',
@@ -121,13 +123,23 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Sep 2009 - Jan 2010',
-        description: 'Support and communication with end-customer segment; experience with retail sales and edu; team leader during Windows 7 Roadshow in various cities',
+        description: 'Windows Guru was a retail-based position, where I was responsible for Microsoft and Windows 7 Brand awareness specifically during Windows 7 launch events and roadshows.', 
+        items: [
+          'team leadership during Windows 7 Roadshow events around Czech republic',
+          'management and evangelism of Microsoft brand in retail',
+          'support and communication with end users',
+        ]
       }, {
         role: 'Travel, Medical, Technical and Home Coordinator',
         company: '@ AXA Assistance',
         location: 'Prague, Czech republic',
         timeline: 'May 2008 - Sep 2008',
-        description: 'Communication with clients of various insurance companies during technical, medical or travel issues in all EU countries; services and help coordination; coordination with foreign assistant agencies',
+        description: 'As a coordinator I was a phone-based first point of contact for insurance companies clients.',
+        items: [
+          'communication with clients of various insurance companies during technical, medical or travel issues in EU',
+          'service and coordination of the incident resolution',
+          'coordination with foreign assistant agencies',
+        ]
       },
     ],
     educations: [{
