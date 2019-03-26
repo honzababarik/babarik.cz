@@ -100,8 +100,7 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Jul 2012 - Dec 2013',
-        description: `
-          Software developer at Microsoft Consulting Services was a strictly technical role, where I was responsible for correct integration, development and deployment
+        description: `Software developer at Microsoft Consulting Services was a strictly technical role, where I was responsible for correct integration, development and deployment
           of Microsoft technologies and products for public sector and public sector serving companies based in Czech republic.
 
           All applications were built at enterprise level scale, which required high availability and fault tolerance. I built web applications
