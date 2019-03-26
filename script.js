@@ -77,8 +77,27 @@ new Vue({
         company: '@ TripIt',
         location: 'San Francisco, California',
         timeline: 'Apr 2016 - Now',
-        description: '',
+        description: `I have asked in 2016 to be relocated to San Francisco to work closer with our core TripIt development team to leverage my years of web development experience.
+          I have joined the delivery team responsible for delivering new features to TripIt paid users, starting with redesigning and reintroducing our second paid business product TripIt for Teams.
+
+          One of the biggest ongoing tasks was to keep moving TripIt from monolith towards SOA using Python/NodeJS microservices, which helped me to learn a lot of about AWS technologies such ECS, VPC, Aurora, EC2, S3, Elasticache, CloudFormation, Route53 and many more, effectively making me quite confident in AWS DevOps.
+    
+          Proof of concept for SOA was a feature called GoNow, which I designed, architected, led the team to develop and rolled out. GoNow became the most covered TripIt feature online in the history of TripIt.
+    
+          In 2018 all of SAP engineering was focused on GDPR compliance and our data security, which helped me to understand more advanced security concepts for enterprise.
+
+          As TripIt is getting oficially introduced to markets outside of US, our team took ownership of how do we localize and internationalize platform that was originally built without any language support whatsoever.
+        `,
         items: [
+          'redesigned TripIt for Teams business product',
+          'architected GoNow microservice based infrastructure and developed the business logic',
+          'introduced unified user analytics system across all TripIt apps in order to better understand our users and their behavior',
+          'architected localization and internalization approach for platform and microservices of our static data',
+          'leveraged majority of AWS solutions to move TripIt from on-premise to solely cloud based application',
+          'introduced GDPR compliance changes, security measures and monitoring',
+          'developed airport navigation integration for mobile using a third party solution',
+          'worked mainly on back-end using Python, PHP and NodeJS',
+          'mentoring TripIt engineers in development approaches and best practices'
         ]
       }, {
         role: 'Principal Software Engineer',
@@ -86,7 +105,7 @@ new Vue({
         location: 'Prague, Czech republic',
         timeline: 'Jan 2014 - Mar 2016',
         description: `I joined Concur in 2014 as one of the first two members of a new development team to help build TripIt - a web and mobile app that magically manages traveler's itinerary. 
-          In the beginning next to learning about TripIt platform and its codebase I spent time interviewing engineers to grow our new engineering team from 2 to over a dozen of engineers.
+          In the beginning next to learning about TripIt platform and its codebase I spent time interviewing engineers to grow our new engineering team to over a dozen engineers.
 
           As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team. 
 
