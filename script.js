@@ -106,17 +106,22 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Oct 2008 - Jun 2012',
-        description: `CPE Project Consultant’s responsibilities were all related to Customer and Partner Experience projects, it’s driving and management, such as education and trainings of MS employees for CPE related projects, and its support.
+        description: `As a CPE coordinator my daily tasks were all related to Customer and Partner Experience projects - it's planning, execution and management.
+          Customer and Partner Experience is focused mainly on the client satisfaction, how do we measure it and how is satisfaction aligned with Microsoft processes, business and revenue.
+  
+          I was responsible for education and trainings of Microsoft account managers in CPE related projects, support in the cases of client dissatisfaction and was a general advisor in for
+          our CPE processes.
 
-          Tasks:
+          From data perspective I was responsible for the analysis and process of the survey results in order to be able to understand and determine where are the
+          areas of focus for next quarter/fiscal year and furthermore present this information to the actual stakeholders.
         `,
         items: [
-          'responsibility for Central and Eastern European market surveys execution and readiness',
-          'data analysis and quarterly reporting to Microsoft Munich, Germany',
-          'usage of various customer and partner databases and its maintenance',
+          "responsibility for Central and Eastern Europe market's Customer and Partner surveys execution and readiness",
+          'data analysis and reporting to Microsoft headquarters',
+          'maintenance of various customer and partner databases across several data regions',
           'work with privacy restricted customers and partners data',
-          'internal Sharepoint sites development – Sharepoint 2010 & Sharepoint 2013',
-          'introduction, tool development (Visual Basic) and processing of local satisfaction survey for smaller countries in CEE'
+          'Sharepoint 2010 & Sharepoint 2013 websites development for internal use',
+          'architecture, development (Visual Basic) and execution of local satisfaction survey for smaller countries in CEE'
         ]
       }, {
         role: 'Windows Guru',
