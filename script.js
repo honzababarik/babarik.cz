@@ -88,11 +88,9 @@ new Vue({
         description: `I joined Concur in 2014 as one of the first two members of a new development team to help build TripIt - a web and mobile app that magically manages traveler's itinerary. 
           In the beginning next to learning about TripIt platform and its codebase I spent time interviewing engineers to grow our new engineering team from 2 to over a dozen of engineers.
 
-          As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the
-          TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team. 
+          As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team. 
 
-          Later in 2015 I have switched roles from a full-stack platform engineer to lead Concur's remote team responsible for development of Objective-C based iOS app called ExpenseIt - an financial
-          app to help employees manage their business related expenses with ease.
+          Later in 2015 I have switched roles from a full-stack platform engineer to lead Concur's remote team responsible for development of Objective-C based iOS app called ExpenseIt - an app to help employees manage their business related expenses with ease.
         `,
         items: [
           "architecture and development of TripIt's internal and external REST APIs",
