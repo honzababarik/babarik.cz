@@ -80,11 +80,10 @@ new Vue({
         description: `I relocated to San Francisco in 2016 to work closer with our core TripIt platform development team and joined the delivery team responsible for TripIt paid features. I started with the reintroduction of our second paid business product - TripIt for Teams.
 
           One of the biggest ongoing tasks was to keep moving TripIt from monolith towards SOA using Python/NodeJS microservices, which helped me to learn a lot of about AWS technologies such ECS, VPC, Aurora, EC2, S3, Elasticache, CloudFormation, Route53 and many more, effectively making me experienced in DevOps using AWS.
-    
           Proof of concept for SOA was a feature called GoNow, which I designed, architected, led the team to develop and rolled out. GoNow became the most covered TripIt feature online in the history of TripIt.
-    
+
           In 2018 TripIt engineering focused on GDPR compliance and our data security, which helped me to understand more advanced security concepts for enterprise systems.
-  
+
           As TripIt is getting oficially introduced to markets outside of US, our team took ownership of how do we localize our platform that was originally built without any internalization support.
         `,
         items: [
@@ -103,10 +102,10 @@ new Vue({
         company: '@ Concur',
         location: 'Prague, Czech republic',
         timeline: 'Jan 2014 - Mar 2016',
-        description: `I joined Concur in 2014 as one of the first two members of a new development team to help build TripIt - a web and mobile app that magically manages traveler's itinerary. 
+        description: `I joined Concur in 2014 as one of the first two members of a new development team to help build TripIt - a web and mobile app that magically manages traveler's itinerary.
           In the beginning next to learning about TripIt platform and its codebase I spent time interviewing engineers to grow our new engineering team to over a dozen engineers.
 
-          As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team. 
+          As TripIt grew, the platform technology became obsolete. Together with other platform engineers we started to define Service Oriented Architecture (SOA) approach to break down the TripIt monolith into microservices, and to come up with best practices to be adopted by the rest of our Prague and San Francisco team.
 
           Later in 2015 I have switched roles from a full-stack platform engineer to lead Concur's remote team responsible for development of Objective-C based iOS app called ExpenseIt - an app to help employees manage their business related expenses with ease.
         `,
@@ -125,15 +124,11 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Jul 2012 - Dec 2013',
-        description: `Software developer at Microsoft Consulting Services was a strictly technical role, where I was responsible for correct integration, development and deployment
-          of Microsoft technologies and products for public sector and public sector serving companies based in Czech republic.
+        description: `Software developer at Microsoft Consulting Services was a strictly technical role, where I was responsible for correct integration, development and deployment of Microsoft technologies and products for public sector and public sector serving companies based in Czech republic.
 
-          All applications were built at enterprise level scale, which required high availability and fault tolerance. I built web applications
-          based on ASP.NET and C#, managed and query large data sets using MSSQL and T-SQL language and set up infrastructure and develop communication channels between
-          several data centers using BizTalk Servers middleware.
+          All applications were built at enterprise level scale, which required high availability and fault tolerance. I built web applications based on ASP.NET and C#, managed and query large data sets using MSSQL and T-SQL language and set up infrastructure and develop communication channels between several data centers using BizTalk Servers middleware.
 
-          Aside from the client project's work I was working on showcases of new Microsoft technologies (Windows 8/Universal, Windows Phone, Microsoft Azure) in order
-          to introduce the technology and possibilities to Microsoft customers, partners and IT professionals.
+          Aside from the client project's work I was working on showcases of new Microsoft technologies (Windows 8/Universal, Windows Phone, Microsoft Azure) in order to introduce the technology and possibilities to Microsoft customers, partners and IT professionals.
         `,
         items: [
           'architecture and development highly available enterprise applications for public sector (ASP.NET, C#, BizTalk, MSSQL, WCF)',
@@ -150,12 +145,10 @@ new Vue({
         timeline: 'Oct 2008 - Jun 2012',
         description: `As a CPE coordinator my daily tasks were all related to Customer and Partner Experience projects - it's planning, execution and management.
           Customer and Partner Experience is focused mainly on the client satisfaction, how do we measure it and how is satisfaction aligned with Microsoft processes, business and revenue.
-  
-          I was responsible for education and trainings of Microsoft account managers in CPE related projects, support in the cases of client dissatisfaction and was a general advisor in for
-          our CPE processes.
 
-          From data perspective I was responsible for the analysis and process of the survey results in order to be able to understand and determine where are the
-          areas of focus for next quarter/fiscal year and furthermore present this information to the actual stakeholders.
+          I was responsible for education and trainings of Microsoft account managers in CPE related projects, support in the cases of client dissatisfaction and was a general advisor in for our CPE processes.
+
+          From data perspective I was responsible for the analysis and process of the survey results in order to be able to understand and determine where are the areas of focus for next quarter/fiscal year and furthermore present this information to the actual stakeholders.
         `,
         items: [
           "responsibility for Central and Eastern Europe market's Customer and Partner surveys execution and readiness",
@@ -170,7 +163,7 @@ new Vue({
         company: '@ Microsoft',
         location: 'Prague, Czech republic',
         timeline: 'Sep 2009 - Jan 2010',
-        description: 'Windows Guru was a retail-based position, where I was responsible for Microsoft and Windows 7 Brand awareness during Windows 7 launch events and roadshows.', 
+        description: 'Windows Guru was a retail-based position, where I was responsible for Microsoft and Windows 7 Brand awareness during Windows 7 launch events and roadshows.',
         items: [
           'team leadership during Windows 7 Roadshow events around Czech republic',
           'management and evangelism of Microsoft brand in retail',
