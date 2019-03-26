@@ -209,9 +209,9 @@ new Vue({
         statusColor: 'green',
         tech: ['React Native', 'Node JS', 'Vue JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS', 'ElastiCache', 'CloudFront'],
         description: `
-          Beacoin was my own idea that I got after starting trading crypto currencies. The problem with signal trading was that there were a lot of signal traders (people who tell you what to buy/sell and when) that were manipulating the numbers of how successful their trading strategies are, luring the users to buy questionable product.
+          Beacoin was my own idea that I got after starting trading crypto currencies. The problem with signal trading was that there were a lot of signal traders (people who tell you what to buy/sell and when) that were manipulating the numbers of how successful their trading strategies are, luring the users to buy their questionable product.
 
-          Beacoin is Web and Mobile app that is used by signal traders to easily send their paid users the signal information without being able to manipulate their history. For users the important is the transparency and the ease of use - if you get a signal to buy Bitcoin, you click on the Buy button and Beacoin's integration to the biggest crypto exchanges is going to take care of the rest.
+          Beacoin is both web and mobile app that is used by signal traders to easily send their paid clients the signal information without being able to manipulate their history. For users that means transparency and ease of use - you get a signal to buy Bitcoin, click on the Buy button and Beacoin's integration to the biggest crypto exchanges takes care of the rest.
 
           Beacoin is hosted on AWS in US and EU, and I have architected and built the web, opened REST API and mobile app for iOS and Android using React Native myself.
         `
@@ -275,7 +275,7 @@ new Vue({
         description: `
           Codename "Ivie" is an AI-powered platform designed to help doctors discover and diagnose thyroid abnormalities including Thyroid Cancer saving doctors and radiologists up to 50% of the time it usually takes.
 
-          Ivie is currently being established on the business side. My role is the CTO of the company owning Ivie, the product description is currently being prepared.
+          Ivie as a business is currently being established. My role is the CTO of the company owning Ivie, the product description is currently being prepared.
         `
       }
       // {
