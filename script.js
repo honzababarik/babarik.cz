@@ -79,7 +79,7 @@ new Vue({
         timeline: 'Apr 2016 - Now',
         description: `I relocated to San Francisco in 2016 to work closer with our core TripIt platform development team and joined the delivery team responsible for TripIt paid features. I started with the reintroduction of our second paid business product - TripIt for Teams.
 
-          One of the biggest ongoing tasks was to keep moving TripIt from monolith towards SOA using Python/NodeJS microservices, which helped me to learn a lot of about AWS technologies such ECS, VPC, Aurora, EC2, S3, Elasticache, CloudFormation, Route53 and many more, effectively making me quite experienced in DevOps using AWS.
+          One of the biggest ongoing tasks was to keep moving TripIt from monolith towards SOA using Python/NodeJS microservices, which helped me to learn a lot of about AWS technologies such ECS, VPC, Aurora, EC2, S3, Elasticache, CloudFormation, Route53 and many more, effectively making me experienced in DevOps using AWS.
     
           Proof of concept for SOA was a feature called GoNow, which I designed, architected, led the team to develop and rolled out. GoNow became the most covered TripIt feature online in the history of TripIt.
     
