@@ -228,18 +228,6 @@ new Vue({
           Discover and order hard-to-find food near you from food trucks, farmers' markets, indoor market and specialty food vendors all in real-time.
         `
       }, {
-        icon: 'img/slang.png',
-        name: 'Slang',
-        css: 'slang',
-        link: 'https://hislang.com',
-        status: 'In Progress',
-        statusColor: 'yellow',
-        tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
-        TODO: true,
-        description: `
-          Real-time translated mobile chat app that allows you to talk to anyone, anytime, anywhere.
-        `
-      }, {
         icon: 'img/localized.png',
         name: 'Localized',
         css: 'localized',
@@ -251,6 +239,18 @@ new Vue({
         description: `
           Experts to guide you, employers to hire you.
           Connecting experts and employers with tomorrow's talent.
+        `
+      }, {
+        icon: 'img/slang.png',
+        name: 'Slang',
+        css: 'slang',
+        link: 'https://hislang.com',
+        status: 'In Progress',
+        statusColor: 'yellow',
+        tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
+        TODO: true,
+        description: `
+          Real-time translated mobile chat app that allows you to talk to anyone, anytime, anywhere.
         `
       }, {
         icon: 'img/salesmsg.png',
