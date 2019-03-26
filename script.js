@@ -20,6 +20,14 @@ new Vue({
   el: '#app',
   data: {
     tab: 'resume',
+    points: [
+      'web/mobile software engineer for over 10 years',
+      'building US startups tech for over 3 years',
+      'experienced in modern development best practices and processes',
+      'experience hiring and leading remote teams',
+      'experienced deploying multi-region cloud infrastructure',
+      'building own ideas in my free time',
+    ],
     skills: {
       'Javascript': {
         tooltip: 'Vanilla, jQuery, VueJS, ReactJS, NodeJS',

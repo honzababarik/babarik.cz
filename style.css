@@ -60,9 +60,20 @@ h2 {
 }
 .intro ul {
   font-size: 0.9rem;
-  margin-top: 30px;
+  margin: 30px 0 0 0;
   text-align: justify;
-  padding: 30px 35px 0 35px;
+  padding: 30px 30px 0 30px;
+}
+.intro ul li {
+  display: flex;
+  align-items: center;
+}
+.intro ul li .dot {
+  margin-right: 25px;
+}
+.intro a {
+  color: #5e6bb2;
+  text-decoration: underline;
 }
 .list-icon {
   list-style-type: none;
@@ -196,20 +207,20 @@ section > .header span {
 section .content table:last-child .line {
   display: none;
 }
-.item {
-  width: 100%;
-}
-.item .dot {
+.dot {
   display: inline-block;
   border: 3px solid #5e6bb2;
   padding: 3px;
   border-radius: 50%;
 }
-.item .dot div {
+.dot div {
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background-color: #5e6bb2;
+}
+.item {
+  width: 100%;
 }
 .item tr td:first-child {
   width: 72px;

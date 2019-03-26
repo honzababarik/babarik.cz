@@ -76,9 +76,20 @@ h2 {
   }
   ul {
     font-size: 0.9rem;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
     text-align: justify;
-    padding: 30px 35px 0 35px;
+    padding: 30px 30px 0 30px;
+    li {
+      display: flex;
+      align-items: center;
+      .dot {
+        margin-right: 25px;
+      }
+    }
+  }
+  a {
+    color: @theme-color;
+    text-decoration: underline;
   }
 }
 
@@ -224,20 +235,21 @@ section {
   }
 }
 
+.dot {
+  display: inline-block;
+  border: 3px solid @theme-color;
+  padding: 3px;
+  border-radius: 50%;
+  div {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: @theme-color;
+  }
+}
+
 .item {
   width: 100%;
-  .dot {
-    display: inline-block;
-    border: 3px solid @theme-color;
-    padding: 3px;
-    border-radius: 50%;
-    div {
-      height: 6px;
-      width: 6px;
-      border-radius: 50%;
-      background-color: @theme-color;
-    }
-  }
   tr td:first-child {
     width: 72px;
     text-align: center;
