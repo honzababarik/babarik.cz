@@ -28,6 +28,13 @@ new Vue({
       'experienced deploying multi-region cloud infrastructure',
       'building own ideas in my free time',
     ],
+    testimonials: [
+      {
+        name: 'Ronit Avni',
+        company: 'Localized',
+        text: 'Honza and his team are a joy to work with: smart, efficient, creative and they go above and beyond to get the job done with technical and aesthetic excellence.'
+      }
+    ],
     skills: {
       'Javascript': {
         tooltip: 'Vanilla, jQuery, VueJS, ReactJS, NodeJS',
