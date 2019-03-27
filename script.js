@@ -264,7 +264,7 @@ new Vue({
 
           Slang is built using NodeJS for backend services, hosted on AWS. Front-end for Slang is mobile app for iOS and Android built with React Native.
 
-          Currently Slang is being tested on various language pairs and evaluated, which languages pairs provide sufficient quality of real time translation to be released to public.
+          Currently Slang is being tested on various language pairs and evaluated, which language pairs provide sufficient quality of real time translation to be released to public.
         `
       }, {
         icon: 'img/salesmsg.png',
@@ -274,10 +274,14 @@ new Vue({
         status: 'In Progress',
         statusColor: 'yellow',
         tech: ['React Native'],
-        TODO: true,
         description: `
-          Simple, scalable, two-way business texting.
-          Easily send, receive, and manage text message conversations online.
+          SalesMessage is a web based system that offers two-way business texting, which has been on the market for a few years now.
+          SalesMessage has published an outsourced mobile app to complement their web experience, however the poor technical implementation lead to unsatisfying results and bad reviews.
+
+          I have taken over the development of their mobile platform and started from scratch to build their mobile experience using the React Native best practices that I have learned in the past.
+          Together with SalesMessage web development team we defined the new API v2 that will better serve the new mobile app needs in order to provide high quality product.
+
+          SalesMessage is currently in the progress of preparing the announcement of the mobile app experience.
         `
       }, {
         icon: 'img/default.png',
