@@ -255,9 +255,16 @@ new Vue({
         status: 'In Progress',
         statusColor: 'yellow',
         tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
-        TODO: true,
         description: `
-          Real-time translated mobile chat app that allows you to talk to anyone, anytime, anywhere.
+          Slang was an idea that I got after observing the increase of quality of cloud language translation systems that use Neural Language Processing and Neural Machine Translation.
+          I believe further Machine learning progress will allow the current global messaging systems to have offer translation as a regular feature, which will allow people to communicate with each other with ease despite their language barrier.
+
+          Slang is simply Whatsapp that automatically translates all messages across users to your local language.
+          The goal of Slang is to train own models by using user interaction to create better translation than current tech leads such as Google Translate or Amazon Translate.
+
+          Slang is built using NodeJS for backend services, hosted on AWS. Front-end for Slang is mobile app for iOS and Android built with React Native.
+
+          Currently Slang is being tested on various language pairs and evaluated, which languages pairs provide sufficient quality of real time translation to be released to public.
         `
       }, {
         icon: 'img/salesmsg.png',
