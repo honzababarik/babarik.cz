@@ -275,13 +275,13 @@ new Vue({
         statusColor: 'yellow',
         tech: ['React Native'],
         description: `
-          SalesMessage is a web based system that offers two-way business texting, which has been on the market for a few years now.
-          SalesMessage has published an outsourced mobile app to complement their web experience, however the poor technical implementation lead to unsatisfying results and bad reviews.
+          SalesMessage is a web application that offers two-way texting for businesses, which has been on the market for a few years now and boasts clients such as Comcast, CrossFit or The Ritz-Carleton.
 
-          I have taken over the development of their mobile platform and started from scratch to build their mobile experience using the React Native best practices that I have learned in the past.
-          Together with SalesMessage web development team we defined the new API v2 that will better serve the new mobile app needs in order to provide high quality product.
+          SalesMessage has published an outsourced mobile app to complement their web experience, however the poor technical implementation led to unsatisfying results and bad user reviews.
+          I have taken over the development of the mobile platform and started to build their new mobile experience from scratch using the React Native.
+          Together with SalesMessage dev team we defined the new API v2 that will better fullfil the new mobile app needs in order to provide a high quality product.
 
-          SalesMessage is currently in the progress of preparing the announcement of the mobile app experience.
+          SalesMessage is being currently internally tested and a public release will follow up shortly.
         `
       }, {
         icon: 'img/default.png',
@@ -318,6 +318,7 @@ new Vue({
     }
   },
   mounted: function () {
+
     $(document).ready(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
