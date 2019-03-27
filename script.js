@@ -318,7 +318,12 @@ new Vue({
     }
   },
   mounted: function () {
-
+    if (window.location.hash) {
+      var pageHash = decodeURIComponent(window.location.hash.substring(1));
+      if (pageHash === 'portfolio') {
+        this.tab = 'portfolio'
+      }
+    }
     $(document).ready(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
