@@ -230,9 +230,13 @@ new Vue({
         status: 'Production',
         statusColor: 'green',
         tech: ['React Native', 'Node JS', 'Vue JS', 'CircleCI', 'Azure', 'MySQL'],
-        TODO: true,
         description: `
-          Discover and order hard-to-find food near you from food trucks, farmers' markets, indoor market and specialty food vendors all in real-time.
+          Food Moves is a mobile app for users to find the food on the move - food trucks, farmers markets, indoor markets, ice cream trucks, etc - in real-time. Any vendor that have flexible location, menu and opening hours is welcome in Food Moves.
+
+          For Food Moves I have hired several engineers, built a team and process and led the API and mobile architecture to get the platform out to the users.
+          Food Moves had a few challenging features like tracking vendors's mobile devices, ordering system and delivery, dynamic and personalized content management that were interesting to resolve.
+
+          Food Moves has been in production for over two years now and we are currently beta testing custom IoT tracking devices for even better real-time truck tracking.
         `
       }, {
         icon: 'img/localized.png',
@@ -275,7 +279,7 @@ new Vue({
         statusColor: 'yellow',
         tech: ['React Native'],
         description: `
-          SalesMessage is a web application that offers two-way texting for businesses, which has been on the market for a few years now and boasts clients such as Comcast, CrossFit or The Ritz-Carleton.
+          SalesMessage is a web application that offers two-way texting for businesses, which has been on the market for a few years now and boasts clients such as Comcast, CrossFit or The Ritz-Carlton.
 
           SalesMessage has published an outsourced mobile app to complement their web experience, however the poor technical implementation led to unsatisfying results and bad user reviews.
           I have taken over the development of the mobile platform and started to build their new mobile experience from scratch using the React Native.
