@@ -255,7 +255,7 @@ new Vue({
         icon: 'img/slang.png',
         name: 'Slang',
         css: 'slang',
-        link: 'https://hislang.com',
+        link: 'https://slang.im',
         status: 'In Progress',
         statusColor: 'yellow',
         tech: ['React Native', 'Node JS', 'CircleCI', 'MySQL', 'S3', 'ECS/ECR', 'EC2', 'SQS', 'RDS'],
