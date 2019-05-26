@@ -275,9 +275,9 @@ new Vue({
         name: 'SalesMessage',
         css: 'sm',
         link: 'https://salesmessage.com',
-        status: 'In Progress',
-        statusColor: 'yellow',
-        tech: ['React Native'],
+        status: 'Production',
+        statusColor: 'green',
+        tech: ['React Native', 'React JS', 'NextJS', 'Redux'],
         description: `
           SalesMessage is a web application that offers two-way texting for businesses, which has been on the market for a few years now and boasts clients such as Comcast, CrossFit or The Ritz-Carlton.
 
